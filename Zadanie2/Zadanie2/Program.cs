@@ -2,6 +2,7 @@
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Hello world!");
+        int[] tab = { 1, 2, 3, 4 };
+        Console.WriteLine(tab.Average());
     }
 }
