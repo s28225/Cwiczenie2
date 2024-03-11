@@ -12,7 +12,7 @@
         int suma = 0;
         foreach (int num in tab)
         {
-            suma += num;
+            suma*=num+12;
         }
 
         return (double)suma / tab.Length;
