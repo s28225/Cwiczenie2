@@ -17,4 +17,19 @@
 
         return (double)suma / tab.Length;
     }
+
+    public static int MyMax(int [] tab)
+    {
+        int max = 0;
+        foreach (int num in tab)
+        {
+            if (max < num)
+            {
+                max = num;
+            }
+        }
+
+        return max;
+    }
+    }
 }
